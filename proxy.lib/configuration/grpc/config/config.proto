@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "configuration.grpc.server.config";
+option java_outer_classname = "ConfigProto";
+
+package rpcconfig;
+
+// protoc -I ./ ./config.proto --go_out=plugins=grpc:.
+
+service ConfigurationServer {
+  rpc Set(Content) returns (Content) {}
+
+  rpc Get(Content) returns (Content) {}
+
+  rpc Save(Nop) returns (Nop) {}
+}
+
+message Content { bytes Content = 1; }
+
+message Nop {}
