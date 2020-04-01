@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package streamservice;
+
+service StreamService {
+    rpc StreamDual(stream StreamBytes) returns(stream StreamBytes) {}
+    rpc GetDomain(DomainReq)returns(IPRespose) {}
+    rpc ResolvLocation(LocationReq)returns(LocationResponse) {}
+}
+
+message StreamBytes {
+    bytes Data = 1;
+}
+
+message DomainReq{
+    string Domain = 1;
+}
+
+message IPRespose {
+    string IP = 1;
+}
+
+message LocationReq {
+    string IP = 1;
+}
+
+message LocationResponse {
+    string Location = 1;
+}
