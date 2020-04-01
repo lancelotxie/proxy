@@ -21,7 +21,6 @@ type streamclient struct {
 }
 
 func newstreamClient(serverip string, serverport int) (*streamclient, error) {
-
 	client := &streamclient{}
 	ipe := serverip + ":" + strconv.FormatInt(int64(serverport), 10)
 	gconn, err := grpc.Dial(ipe, grpc.WithInsecure())
