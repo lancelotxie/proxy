@@ -14,6 +14,7 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/lancelot/proxy/proxy.client/tools/dns"
 	"github.com/lancelot/proxy/proxy.client/tools/location"
 	client "github.com/lancelot/proxy/proxy.server/grpc.client"
 
@@ -43,6 +44,10 @@ func tcpDialByRemote(ip string, port int) (conn net.Conn, err error) {
 
 // 根据ip所在地，分别用 本地建立连接 或者 远端连接
 func tcpDialByLocation(ctx context.Context, ip string, port int) (conn net.Conn, err error) {
+	ip, err = dns.ResolvByLocation(ip)
+	if err != nil {
+		return
+	}
 	native, err := location.IsNativeIP(ip)
 	if err != nil {
 		return
