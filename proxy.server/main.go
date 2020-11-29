@@ -20,6 +20,8 @@ import (
 // ErrLocalListenAddrNotFound 本地监听地址不存在
 var ErrLocalListenAddrNotFound = errors.New("local addr not found")
 
+var defaultgRPCAddr = "127.0.0.1:9530"
+
 func main() {
 	ctx := context.Background()
 
@@ -73,13 +75,7 @@ func closeSystem() {
 }
 
 func initProxyServer() (server mynet.Service, err error) {
-	addr, ok := configuration.GetString("listen.addr")
-	if !ok {
-		err = errors.WithStack(ErrLocalListenAddrNotFound)
-		return
-	}
-
-	lis, err := net.Listen("tcp", addr)
+	lis, err := net.Listen("tcp", defaultgRPCAddr)
 	if err != nil {
 		err = errors.WithStack(err)
 		return
@@ -97,6 +93,10 @@ func startKCPRelay(ctx context.Context) (err error) {
 		return
 	}
 
-	err = kcp.Start(ctx, addr)
+	err = kcp.Start(ctx, addr, defaultgRPCAddr)
+	if err != nil {
+		return err
+	}
+	log.Println("KCP 转发成功监听:", addr)
 	return
 }
