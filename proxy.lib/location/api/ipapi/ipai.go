@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	base "github.com/lancelot/proxy/proxy.lib/location/base"
+	base "github.com/lancelotXie/proxy/proxy.lib/location/base"
 
 	"github.com/pkg/errors"
 )

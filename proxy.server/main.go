@@ -6,19 +6,21 @@ import (
 	"log"
 	"net"
 
-	configuration "github.com/lancelot/proxy/proxy.lib/configuration"
-	config "github.com/lancelot/proxy/proxy.lib/configuration/grpc"
-	"github.com/lancelot/proxy/proxy.lib/debug"
-	mynet "github.com/lancelot/proxy/proxy.lib/net"
-	path "github.com/lancelot/proxy/proxy.lib/path"
-	"github.com/lancelot/proxy/proxy.server/kcp"
-	service "github.com/lancelot/proxy/proxy.server/server"
+	configuration "github.com/lancelotXie/proxy/proxy.lib/configuration"
+	config "github.com/lancelotXie/proxy/proxy.lib/configuration/grpc"
+	"github.com/lancelotXie/proxy/proxy.lib/debug"
+	mynet "github.com/lancelotXie/proxy/proxy.lib/net"
+	path "github.com/lancelotXie/proxy/proxy.lib/path"
+	"github.com/lancelotXie/proxy/proxy.server/kcp"
+	service "github.com/lancelotXie/proxy/proxy.server/server"
 
 	"github.com/pkg/errors"
 )
 
 // ErrLocalListenAddrNotFound 本地监听地址不存在
 var ErrLocalListenAddrNotFound = errors.New("local addr not found")
+
+var defaultgRPCAddr = "127.0.0.1:9530"
 
 func main() {
 	ctx := context.Background()
@@ -73,13 +75,7 @@ func closeSystem() {
 }
 
 func initProxyServer() (server mynet.Service, err error) {
-	addr, ok := configuration.GetString("listen.addr")
-	if !ok {
-		err = errors.WithStack(ErrLocalListenAddrNotFound)
-		return
-	}
-
-	lis, err := net.Listen("tcp", addr)
+	lis, err := net.Listen("tcp", defaultgRPCAddr)
 	if err != nil {
 		err = errors.WithStack(err)
 		return
@@ -97,6 +93,10 @@ func startKCPRelay(ctx context.Context) (err error) {
 		return
 	}
 
-	err = kcp.Start(ctx, addr)
+	err = kcp.Start(ctx, addr, defaultgRPCAddr)
+	if err != nil {
+		return err
+	}
+	log.Println("KCP 转发成功监听:", addr)
 	return
 }

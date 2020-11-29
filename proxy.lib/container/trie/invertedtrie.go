@@ -1,6 +1,6 @@
 package trie
 
-import "github.com/lancelot/proxy/proxy.lib/container/array"
+import "github.com/lancelotXie/proxy/proxy.lib/container/array"
 
 // InvertedTrie 逆序读写 array 的字典树
 type InvertedTrie struct {

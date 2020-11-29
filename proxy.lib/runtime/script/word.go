@@ -3,7 +3,7 @@ package script
 import (
 	"strings"
 
-	"github.com/lancelot/proxy/proxy.lib/container/set"
+	"github.com/lancelotXie/proxy/proxy.lib/container/set"
 )
 
 // WordType 单词的类型

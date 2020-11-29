@@ -3,7 +3,7 @@ package dns
 import (
 	"time"
 
-	resolver "github.com/lancelot/proxy/proxy.lib/resolver"
+	resolver "github.com/lancelotXie/proxy/proxy.lib/resolver"
 
 	mynet "github.com/eaglexiang/go/net"
 	"github.com/pkg/errors"

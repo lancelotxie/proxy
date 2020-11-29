@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	rpcconfig "github.com/lancelot/proxy/proxy.lib/configuration/grpc/config"
+	rpcconfig "github.com/lancelotXie/proxy/proxy.lib/configuration/grpc/config"
 
 	"google.golang.org/grpc"
 )

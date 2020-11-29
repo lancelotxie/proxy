@@ -4,10 +4,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/lancelot/proxy/proxy.lib/logger"
-	dial "github.com/lancelot/proxy/proxy.server/dial"
-	flow "github.com/lancelot/proxy/proxy.server/flow"
-	grpc "github.com/lancelot/proxy/proxy.server/grpc.server"
+	"github.com/lancelotXie/proxy/proxy.lib/logger"
+	dial "github.com/lancelotXie/proxy/proxy.server/dial"
+	flow "github.com/lancelotXie/proxy/proxy.server/flow"
+	grpc "github.com/lancelotXie/proxy/proxy.server/grpc.server"
 )
 
 // Server : 服务端。

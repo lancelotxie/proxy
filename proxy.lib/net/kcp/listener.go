@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lancelot/proxy/proxy.lib/net/kcp/base"
+	"github.com/lancelotXie/proxy/proxy.lib/net/kcp/base"
 
 	"github.com/pkg/errors"
 	"github.com/xtaci/smux"

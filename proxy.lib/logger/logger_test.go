@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/lancelot/proxy/proxy.lib/ctxtransid"
+	"github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
 	"github.com/stretchr/testify/assert"
 )
 

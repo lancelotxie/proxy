@@ -1,8 +1,8 @@
 package location
 
 import (
-	"github.com/lancelot/proxy/proxy.lib/location/base"
-	client "github.com/lancelot/proxy/proxy.server/grpc.client"
+	"github.com/lancelotXie/proxy/proxy.lib/location/base"
+	client "github.com/lancelotXie/proxy/proxy.server/grpc.client"
 
 	mynet "github.com/eaglexiang/go/net"
 )

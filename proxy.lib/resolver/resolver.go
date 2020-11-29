@@ -3,10 +3,10 @@ package resolver
 import (
 	"time"
 
-	"github.com/lancelot/proxy/proxy.lib/resolver/singleton"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/singleton"
 
-	"github.com/lancelot/proxy/proxy.lib/resolver/base"
-	"github.com/lancelot/proxy/proxy.lib/resolver/cache"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/base"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/cache"
 )
 
 // newResolver 构造一个默认的解析器

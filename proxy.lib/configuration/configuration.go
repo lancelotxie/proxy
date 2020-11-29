@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/lancelot/proxy/proxy.lib/setting"
+	"github.com/lancelotXie/proxy/proxy.lib/setting"
 	"github.com/pkg/errors"
 )
 

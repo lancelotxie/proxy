@@ -1,9 +1,9 @@
 package location
 
 import (
-	"github.com/lancelot/proxy/proxy.lib/location/api/ipapi"
-	"github.com/lancelot/proxy/proxy.lib/location/base"
-	resolver "github.com/lancelot/proxy/proxy.lib/resolver"
+	"github.com/lancelotXie/proxy/proxy.lib/location/api/ipapi"
+	"github.com/lancelotXie/proxy/proxy.lib/location/base"
+	resolver "github.com/lancelotXie/proxy/proxy.lib/resolver"
 	"github.com/patrickmn/go-cache"
 )
 

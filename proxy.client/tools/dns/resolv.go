@@ -10,9 +10,9 @@
 package dns
 
 import (
-	"github.com/lancelot/proxy/proxy.client/tools/location"
-	"github.com/lancelot/proxy/proxy.lib/dns"
-	client "github.com/lancelot/proxy/proxy.server/grpc.client"
+	"github.com/lancelotXie/proxy/proxy.client/tools/location"
+	"github.com/lancelotXie/proxy/proxy.lib/dns"
+	client "github.com/lancelotXie/proxy/proxy.server/grpc.client"
 )
 
 // Resolv 解析 DNS

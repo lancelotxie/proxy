@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lancelot/proxy/proxy.lib/address"
+	"github.com/lancelotXie/proxy/proxy.lib/address"
 
 	"github.com/stretchr/testify/assert"
 )

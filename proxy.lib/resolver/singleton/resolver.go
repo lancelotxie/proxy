@@ -3,7 +3,7 @@ package singleton
 import (
 	"sync"
 
-	"github.com/lancelot/proxy/proxy.lib/resolver/base"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/base"
 )
 
 type doFunc func()

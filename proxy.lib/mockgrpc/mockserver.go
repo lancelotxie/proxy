@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 )
 
 type streamServiceServer interface {

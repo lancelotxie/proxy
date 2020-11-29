@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lancelot/proxy/proxy.lib/path"
+	"github.com/lancelotXie/proxy/proxy.lib/path"
 )
 
 func Test_SaveLoad(t *testing.T) {

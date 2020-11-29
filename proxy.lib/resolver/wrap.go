@@ -3,8 +3,8 @@ package resolver
 import (
 	"time"
 
-	"github.com/lancelot/proxy/proxy.lib/resolver/base"
-	stringresolver "github.com/lancelot/proxy/proxy.lib/resolver/string"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/base"
+	stringresolver "github.com/lancelotXie/proxy/proxy.lib/resolver/string"
 )
 
 // ResolvFunc 解析函数，即 base.ResolvFunc

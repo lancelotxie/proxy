@@ -16,16 +16,16 @@ import (
 	"net"
 	_ "net/http/pprof"
 
-	"github.com/lancelot/proxy/proxy.client/door"
-	"github.com/lancelot/proxy/proxy.client/kcp"
-	"github.com/lancelot/proxy/proxy.lib/configuration"
-	config "github.com/lancelot/proxy/proxy.lib/configuration/grpc"
-	"github.com/lancelot/proxy/proxy.lib/debug"
-	"github.com/lancelot/proxy/proxy.lib/path"
-	client "github.com/lancelot/proxy/proxy.server/grpc.client"
+	"github.com/lancelotXie/proxy/proxy.client/door"
+	"github.com/lancelotXie/proxy/proxy.client/kcp"
+	"github.com/lancelotXie/proxy/proxy.lib/configuration"
+	config "github.com/lancelotXie/proxy/proxy.lib/configuration/grpc"
+	"github.com/lancelotXie/proxy/proxy.lib/debug"
+	"github.com/lancelotXie/proxy/proxy.lib/path"
+	client "github.com/lancelotXie/proxy/proxy.server/grpc.client"
 
-	_ "github.com/lancelot/proxy/proxy.client/parsers/http"
-	_ "github.com/lancelot/proxy/proxy.client/parsers/https"
+	_ "github.com/lancelotXie/proxy/proxy.client/parsers/http"
+	_ "github.com/lancelotXie/proxy/proxy.client/parsers/https"
 )
 
 func main() {

@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.client/tools/dns"
-	"github.com/lancelot/proxy/proxy.client/tools/location"
-	client "github.com/lancelot/proxy/proxy.server/grpc.client"
+	"github.com/lancelotXie/proxy/proxy.client/tools/dns"
+	"github.com/lancelotXie/proxy/proxy.client/tools/location"
+	client "github.com/lancelotXie/proxy/proxy.server/grpc.client"
 
 	"github.com/pkg/errors"
 )

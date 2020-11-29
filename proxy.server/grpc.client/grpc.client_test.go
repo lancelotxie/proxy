@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/lancelot/proxy/proxy.lib/address"
-	"github.com/lancelot/proxy/proxy.lib/location"
-	mockgrpc "github.com/lancelot/proxy/proxy.lib/mockgrpc"
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	"github.com/lancelotXie/proxy/proxy.lib/address"
+	"github.com/lancelotXie/proxy/proxy.lib/location"
+	mockgrpc "github.com/lancelotXie/proxy/proxy.lib/mockgrpc"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

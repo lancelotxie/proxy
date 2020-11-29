@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lancelot/proxy/proxy.lib/configuration/grpc"
-	"github.com/lancelot/proxy/proxy.lib/path"
+	"github.com/lancelotXie/proxy/proxy.lib/configuration/grpc"
+	"github.com/lancelotXie/proxy/proxy.lib/path"
 
 	"github.com/stretchr/testify/assert"
 )
