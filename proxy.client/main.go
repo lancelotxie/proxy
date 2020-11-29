@@ -20,9 +20,9 @@ import (
 	"github.com/lancelotXie/proxy/proxy.client/kcp"
 	"github.com/lancelotXie/proxy/proxy.lib/configuration"
 	config "github.com/lancelotXie/proxy/proxy.lib/configuration/grpc"
+	"github.com/lancelotXie/proxy/proxy.lib/debug"
 	"github.com/lancelotXie/proxy/proxy.lib/path"
 	client "github.com/lancelotXie/proxy/proxy.server/grpc.client"
-	"github.github.com/lancelotXie/proxy/proxy.lib/debug"
 
 	_ "github.com/lancelotXie/proxy/proxy.client/parsers/http"
 	_ "github.com/lancelotXie/proxy/proxy.client/parsers/https"
