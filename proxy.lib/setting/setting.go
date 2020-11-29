@@ -13,7 +13,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/lancelot/proxy/proxy.lib/container/syncmap"
+	"github.com/lancelotXie/proxy/proxy.lib/container/syncmap"
 )
 
 const split = "."

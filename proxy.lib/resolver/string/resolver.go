@@ -1,7 +1,7 @@
 package string
 
 import (
-	"github.com/lancelot/proxy/proxy.lib/resolver/base"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/base"
 
 	"github.com/pkg/errors"
 )

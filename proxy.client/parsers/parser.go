@@ -14,7 +14,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.lib/renewconn"
+	"github.com/lancelotXie/proxy/proxy.lib/renewconn"
 
 	"github.com/pkg/errors"
 )

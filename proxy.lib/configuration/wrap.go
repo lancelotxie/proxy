@@ -4,8 +4,8 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/lancelot/proxy/proxy.lib/path"
-	"github.com/lancelot/proxy/proxy.lib/setting"
+	"github.com/lancelotXie/proxy/proxy.lib/path"
+	"github.com/lancelotXie/proxy/proxy.lib/setting"
 
 	"github.com/pkg/errors"
 )

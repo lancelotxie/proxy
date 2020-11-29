@@ -1,7 +1,7 @@
 package mockgrpc
 
 import (
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 )
 
 // NewCS : 构造 grpc 客户端和服务端；

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.lib/configuration"
-	rpcconfig "github.com/lancelot/proxy/proxy.lib/configuration/grpc/config"
+	"github.com/lancelotXie/proxy/proxy.lib/configuration"
+	rpcconfig "github.com/lancelotXie/proxy/proxy.lib/configuration/grpc/config"
 
 	"google.golang.org/grpc"
 )

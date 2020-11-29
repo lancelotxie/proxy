@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	dial "github.com/lancelot/proxy/proxy.server/dial"
-	flow "github.com/lancelot/proxy/proxy.server/flow"
-	"github.com/lancelot/proxy/proxy.lib/address"
-	"github.com/lancelot/proxy/proxy.lib/ctxtransid"
+	dial "github.com/lancelotXie/proxy/proxy.server/dial"
+	flow "github.com/lancelotXie/proxy/proxy.server/flow"
+	"github.com/lancelotXie/proxy/proxy.lib/address"
+	"github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
 	"github.com/stretchr/testify/assert"
 )
 

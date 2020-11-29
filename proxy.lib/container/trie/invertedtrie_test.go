@@ -3,7 +3,7 @@ package trie
 import (
 	"testing"
 
-	"github.com/lancelot/proxy/proxy.lib/container/array"
+	"github.com/lancelotXie/proxy/proxy.lib/container/array"
 
 	"github.com/stretchr/testify/assert"
 )

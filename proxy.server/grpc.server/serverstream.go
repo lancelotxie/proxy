@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 	errors "github.com/pkg/errors"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.lib/ctxtransid"
-	"github.com/lancelot/proxy/proxy.lib/logger"
+	"github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
+	"github.com/lancelotXie/proxy/proxy.lib/logger"
 	tunnel "github.com/eaglexiang/go/tunnel"
 )
 

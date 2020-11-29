@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 )
 
 // Service : GRPC服务器对外接口

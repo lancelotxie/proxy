@@ -14,7 +14,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.client/parsers"
+	"github.com/lancelotXie/proxy/proxy.client/parsers"
 
 	"github.com/eaglexiang/go/tunnel"
 )

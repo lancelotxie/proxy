@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/lancelot/proxy/proxy.lib/grpc.client/configuration"
+	"github.com/lancelotXie/proxy/proxy.lib/grpc.client/configuration"
 )
 
 // Method 方法

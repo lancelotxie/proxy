@@ -6,13 +6,13 @@ import (
 	"log"
 	"net"
 
-	configuration "github.com/lancelot/proxy/proxy.lib/configuration"
-	config "github.com/lancelot/proxy/proxy.lib/configuration/grpc"
-	"github.com/lancelot/proxy/proxy.lib/debug"
-	mynet "github.com/lancelot/proxy/proxy.lib/net"
-	path "github.com/lancelot/proxy/proxy.lib/path"
-	"github.com/lancelot/proxy/proxy.server/kcp"
-	service "github.com/lancelot/proxy/proxy.server/server"
+	configuration "github.com/lancelotXie/proxy/proxy.lib/configuration"
+	config "github.com/lancelotXie/proxy/proxy.lib/configuration/grpc"
+	"github.com/lancelotXie/proxy/proxy.lib/debug"
+	mynet "github.com/lancelotXie/proxy/proxy.lib/net"
+	path "github.com/lancelotXie/proxy/proxy.lib/path"
+	"github.com/lancelotXie/proxy/proxy.server/kcp"
+	service "github.com/lancelotXie/proxy/proxy.server/server"
 
 	"github.com/pkg/errors"
 )

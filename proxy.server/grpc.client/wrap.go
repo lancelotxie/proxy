@@ -4,12 +4,12 @@ import (
 	"context"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.lib/location"
+	"github.com/lancelotXie/proxy/proxy.lib/location"
 
-	"github.com/lancelot/proxy/proxy.lib/ctxtransid"
-	"github.com/lancelot/proxy/proxy.lib/dns"
-	locationbase "github.com/lancelot/proxy/proxy.lib/location/base"
-	"github.com/lancelot/proxy/proxy.lib/logger"
+	"github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
+	"github.com/lancelotXie/proxy/proxy.lib/dns"
+	locationbase "github.com/lancelotXie/proxy/proxy.lib/location/base"
+	"github.com/lancelotXie/proxy/proxy.lib/logger"
 )
 
 var defaultPool *pool

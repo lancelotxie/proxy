@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lancelot/proxy/proxy.client/parsers"
-	"github.com/lancelot/proxy/proxy.client/tools/dial"
+	"github.com/lancelotXie/proxy/proxy.client/parsers"
+	"github.com/lancelotXie/proxy/proxy.client/tools/dial"
 
 	"github.com/pkg/errors"
 )

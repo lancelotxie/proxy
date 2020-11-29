@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lancelot/proxy/proxy.lib/resolver/base"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver/base"
 	"github.com/patrickmn/go-cache"
 )
 

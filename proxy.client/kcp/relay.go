@@ -5,9 +5,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/lancelot/proxy/proxy.lib/configuration"
-	"github.com/lancelot/proxy/proxy.lib/net/kcp"
-	"github.com/lancelot/proxy/proxy.lib/net/relay"
+	"github.com/lancelotXie/proxy/proxy.lib/configuration"
+	"github.com/lancelotXie/proxy/proxy.lib/net/kcp"
+	"github.com/lancelotXie/proxy/proxy.lib/net/relay"
 
 	"github.com/pkg/errors"
 )

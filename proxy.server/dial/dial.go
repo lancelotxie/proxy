@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/lancelot/proxy/proxy.lib/logger"
+	"github.com/lancelotXie/proxy/proxy.lib/logger"
 	errors "github.com/pkg/errors"
 )
 

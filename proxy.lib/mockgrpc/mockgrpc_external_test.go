@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	mockgrpc "github.com/lancelot/proxy/proxy.lib/mockgrpc"
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	mockgrpc "github.com/lancelotXie/proxy/proxy.lib/mockgrpc"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 	"github.com/stretchr/testify/assert"
 )
 

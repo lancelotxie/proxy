@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lancelot/proxy/proxy.client/parsers"
-	"github.com/lancelot/proxy/proxy.client/tools/dial"
-	"github.com/lancelot/proxy/proxy.lib/container/set"
+	"github.com/lancelotXie/proxy/proxy.client/parsers"
+	"github.com/lancelotXie/proxy/proxy.client/tools/dial"
+	"github.com/lancelotXie/proxy/proxy.lib/container/set"
 
 	"github.com/pkg/errors"
 )

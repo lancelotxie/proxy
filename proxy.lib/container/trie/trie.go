@@ -1,7 +1,7 @@
 package trie
 
 import (
-	"github.com/lancelot/proxy/proxy.lib/container/array"
+	"github.com/lancelotXie/proxy/proxy.lib/container/array"
 )
 
 // Trie 字典树

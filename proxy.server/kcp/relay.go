@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/lancelot/proxy/proxy.lib/net/kcp"
-	"github.com/lancelot/proxy/proxy.lib/net/relay"
+	"github.com/lancelotXie/proxy/proxy.lib/net/kcp"
+	"github.com/lancelotXie/proxy/proxy.lib/net/relay"
 )
 
 // Start 开始 kcp 转发服务

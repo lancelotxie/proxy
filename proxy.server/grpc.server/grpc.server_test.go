@@ -5,10 +5,10 @@ import (
 	"net"
 	"testing"
 
-	"github.com/lancelot/proxy/proxy.lib/address"
-	"github.com/lancelot/proxy/proxy.lib/ctxtransid"
-	"github.com/lancelot/proxy/proxy.lib/mockgrpc"
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	"github.com/lancelotXie/proxy/proxy.lib/address"
+	"github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
+	"github.com/lancelotXie/proxy/proxy.lib/mockgrpc"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 
 	errors "github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"

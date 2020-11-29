@@ -14,8 +14,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/lancelot/proxy/proxy.client/tools/dial"
-	"github.com/lancelot/proxy/proxy.client/tools/dns"
+	"github.com/lancelotXie/proxy/proxy.client/tools/dial"
+	"github.com/lancelotXie/proxy/proxy.client/tools/dns"
 
 	"github.com/eaglexiang/go/tunnel"
 	"github.com/stretchr/testify/assert"

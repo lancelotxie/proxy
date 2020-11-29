@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"sync"
 
-	address "github.com/lancelot/proxy/proxy.lib/address"
-	contransid "github.com/lancelot/proxy/proxy.lib/ctxtransid"
-	"github.com/lancelot/proxy/proxy.lib/dns"
-	"github.com/lancelot/proxy/proxy.lib/location"
-	"github.com/lancelot/proxy/proxy.lib/logger"
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	address "github.com/lancelotXie/proxy/proxy.lib/address"
+	contransid "github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
+	"github.com/lancelotXie/proxy/proxy.lib/dns"
+	"github.com/lancelotXie/proxy/proxy.lib/location"
+	"github.com/lancelotXie/proxy/proxy.lib/logger"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 
 	errors "github.com/pkg/errors"
 	"google.golang.org/grpc"

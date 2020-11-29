@@ -6,11 +6,11 @@ import (
 	"net"
 	"strconv"
 
-	address "github.com/lancelot/proxy/proxy.lib/address"
-	"github.com/lancelot/proxy/proxy.lib/ctxtransid"
-	locationbase "github.com/lancelot/proxy/proxy.lib/location/base"
-	"github.com/lancelot/proxy/proxy.lib/logger"
-	proto "github.com/lancelot/proxy/proxy.server/grpc.server/proto"
+	address "github.com/lancelotXie/proxy/proxy.lib/address"
+	"github.com/lancelotXie/proxy/proxy.lib/ctxtransid"
+	locationbase "github.com/lancelotXie/proxy/proxy.lib/location/base"
+	"github.com/lancelotXie/proxy/proxy.lib/logger"
+	proto "github.com/lancelotXie/proxy/proxy.server/grpc.server/proto"
 
 	errors "github.com/pkg/errors"
 	"google.golang.org/grpc"

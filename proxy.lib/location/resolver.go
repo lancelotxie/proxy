@@ -1,8 +1,8 @@
 package location
 
 import (
-	"github.com/lancelot/proxy/proxy.lib/location/base"
-	"github.com/lancelot/proxy/proxy.lib/resolver"
+	"github.com/lancelotXie/proxy/proxy.lib/location/base"
+	"github.com/lancelotXie/proxy/proxy.lib/resolver"
 )
 
 // ResolvFunc 解析地址的方法定义

@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	mocknet "github.com/lancelot/proxy/proxy.lib/mock/net"
+	mocknet "github.com/lancelotXie/proxy/proxy.lib/mock/net"
 
 	"github.com/stretchr/testify/assert"
 )

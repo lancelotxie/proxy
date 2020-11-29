@@ -4,7 +4,7 @@ import (
 	"context"
 	"net"
 
-	mynet "github.com/lancelot/proxy/proxy.lib/net"
+	mynet "github.com/lancelotXie/proxy/proxy.lib/net"
 )
 
 // New 构造新的流量中继器
