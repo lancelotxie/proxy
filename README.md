@@ -13,21 +13,21 @@ Proxy是一款干净的正向代理工具,支持HTTP/HTTPS协议,内存占用低
         cd ./proxy/proxy.server
         ```
         ```sh
-        go build -o server.o ./main.go
+        go build -o server.linux ./main.go
         ```
     2. 编译客户端:
         ```sh
         cd ./proxy/proxy.client
         ```
         ```sh
-        go build -o client.o ./main.go
+        go build -o client.liux ./main.go
         ```
     3. 编译配置端:
         ```sh
         cd ./proxy/proxy.controller
         ```
         ```sh
-        go build -o controller.o ./main.go
+        go build -o controller.linux ./main.go
         ```
 - 配置监听地址:
     1. 配置服务端:
@@ -35,35 +35,35 @@ Proxy是一款干净的正向代理工具,支持HTTP/HTTPS协议,内存占用低
         cd ./proxy/proxy.server
         ```
         ```sh
-        ./server.o -ctrl-port 8086
+        ./server.linux -ctrl-port 8086
         ```
         ```sh
         # 另外开一个终端
         cd ./proxy/proxy.controller &&
-        ./controller.o -ctrl-port 8086 set listen.addr 0.0.0.0:17600 &&
-        ./controller.o -ctrl-port 8086 save
+        ./controller.linux -ctrl-port 8086 set listen.addr 0.0.0.0:17600 &&
+        ./controller.linux -ctrl-port 8086 save
         ```
     2. 配置客户端,假设服务端IP为123.123.123.123:
         ```sh
         cd ./proxy/proxy.client
         ```
         ```sh
-        ./client.o
+        ./client.linux
         ```
         ```sh
         # 另外开一个终端
         cd ./proxy/proxy.controller &&
-        ./controller.o set remote.addr 123.123.123.123:17600 &&
-        ./controller.o save
+        ./controller.linux set remote.addr 123.123.123.123:17600 &&
+        ./controller.linux save
         ```
 - 运行:
     1. 运行服务端:
         ```sh
-        cd ./proxy/proxy.server && ./server.o
+        cd ./proxy/proxy.server && ./server.linux
         ```
     2. 运行客户端:
         ```sh
-        cd ./proxy/proxy.client && ./client.o
+        cd ./proxy/proxy.client && ./client.linux
         ```
 - 设置系统代理为127.0.0.1:9527
 - 安装完毕
