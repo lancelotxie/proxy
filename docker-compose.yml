@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  web:
+    image: proxy:latest
+    ports: 
+      - 19527:9527
+  volumes: 
+    ./proxys:/home/root/proxys
+  container_name: proxy
+logging:
+  driver: "json-file"
+  options: 
+    max-size: "200k"
+    max-file: "2"
